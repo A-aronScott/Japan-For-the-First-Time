@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    color: black;
+}
+
+/* --- Hero --- */
+
+Header h1 {
+    background-color:rgb(243, 229, 208);
+    font-family:New Rocker, static;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* --- High Lights --- */
+
+h2 {
+    font-size: 50px;
+    padding: 20px;
+    color:black
+}
+
+.short-line {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    margin: 30px auto;
+}
+
+Header p {
+    background-color:rgb(243, 229, 208);
+    font-family:New Rocker, static;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* --- Photographs --- */
+
+.media-container h2 {
+    font-size: 45px;
+}
+
+.media-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color:rgb(169, 190, 239);
+    transform: translateY(-20px);
+    font-size: 20px;  
+    padding: 0px;  
+}   
+
+.media-container img {
+    width: 750px;
+    height: 500px;        
+    border-radius: 50%;
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+    text-wrap: balance;
+}
+
+ul {
+    padding: 30px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+    
+section {
+    background-color:rgb(169, 190, 239);
+    color:rgb(216, 208, 186);
+    font-family:Ranade;
+    font-size: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+    
+
+footer {
+    background-color:rgb(243, 229, 208);
+    padding: 30px;
+    transform: translateY(-20px);
+}
+
+body {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .media-container {
+        flex-direction: row;
+}
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Styles for Mobile Devices */
+body {
+  font-size: 14px;
+}
+
+/* Styles for Tablets and Larger Screens */
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+
