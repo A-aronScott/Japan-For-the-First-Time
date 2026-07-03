@@ -152,7 +152,30 @@ body {
   }
 }
 
-.fetch-btn{
-    width: 50px;
-    height: 20px;
+
+
+/*Styization and Position of Weather Forecast Fetch Button */
+
+#fetch-btn {
+  position: absolute;
+  left: 20px;               
+  top: 5%;                 
+  transform: translateY(-50%); 
+  width: 130px;             
+  height: 40px;             
+  font-size: 14px;
+}
+
+
+/*Stylization and Position of Current Conditions Data Container */
+
+#data-container{
+    position: absolute;
+    left: 85px;
+    top:  7%;
+    transform: translate(-50%);
+
+    width: 130px;
+    height: 40px;
+    font-size: 14px
 }
